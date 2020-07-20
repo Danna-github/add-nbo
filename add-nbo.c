@@ -26,5 +26,5 @@ int main(int argc, char*argv[]) {
 	uint32_t* p2 = reinterpret_cast<uint32_t*>(network_buf2);
 
 	uint32_t n = my_ntohl(*p) + my_ntohl(*p2);
-	printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", my_ntohl(*p), my_ntohl(*p2), my_ntohl(*p), my_ntohl(*p2),n,  n);
+	printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", my_ntohl(*p), my_ntohl(*p), my_ntohl(*p2), my_ntohl(*p2),n,  n);
 }
